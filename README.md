@@ -7,7 +7,7 @@ The plugin uses the MCP server that is built into every Frappe site at `/api/v2/
 ## Install
 
 ```
-/plugin marketplace add frappe/claude-plugins
+/plugin marketplace add frappe/frappe-claude-plugin
 /plugin install frappe@frappe
 ```
 
