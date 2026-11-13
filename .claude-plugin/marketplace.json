@@ -1,0 +1,17 @@
+{
+  "name": "frappe",
+  "owner": {
+    "name": "Frappe Technologies"
+  },
+  "metadata": {
+    "description": "Claude plugins for Frappe Framework and ERPNext sites"
+  },
+  "plugins": [
+    {
+      "name": "frappe",
+      "source": "./plugins/frappe",
+      "description": "Connect Claude to your Frappe or ERPNext site through its built-in MCP server",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "frappe",
+  "version": "0.1.0",
+  "description": "Connect Claude to your Frappe or ERPNext site through its built-in MCP server",
+  "author": {
+    "name": "Frappe Technologies"
+  },
+  "homepage": "https://frappe.io/framework",
+  "privacyPolicyUrl": "https://frappe.io/privacy-policy",
+  "license": "MIT",
+  "keywords": [
+    "frappe",
+    "erpnext",
+    "erp",
+    "mcp"
+  ],
+  "userConfig": {
+    "site_url": {
+      "type": "string",
+      "title": "Frappe site URL",
+      "description": "The address of your site, for example https://erp.example.com",
+      "required": true
+    }
+  },
+  "mcpServers": {
+    "frappe": {
+      "type": "http",
+      "url": "${user_config.site_url}/api/v2/mcp"
+    }
+  }
+}
