@@ -1,11 +1,13 @@
 {
   "name": "frappe",
+  "displayName": "Frappe",
   "version": "0.1.0",
   "description": "Connect Claude to your Frappe or ERPNext site through its built-in MCP server",
   "author": {
     "name": "Frappe Technologies"
   },
   "homepage": "https://frappe.io/framework",
+  "repository": "https://github.com/frappe/frappe-claude-plugin",
   "privacyPolicyUrl": "https://frappe.io/privacy-policy",
   "license": "MIT",
   "keywords": [
