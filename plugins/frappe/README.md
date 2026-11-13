@@ -42,4 +42,3 @@ claude mcp add --transport http frappe-staging https://staging.example.com/api/v
 ## What is included
 
 - MCP server `frappe`: search DocTypes and methods, read, count, create, update and delete documents, and call whitelisted methods.
-- Skill `frappe`: tells Claude to look up DocType schemas before it writes, and to confirm changes with you first.
